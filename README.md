@@ -5,9 +5,9 @@ This project implements a multi agent system for automating the process of analy
 
 ### Project Structure
 
--**Notebook:** `job_application_crew.ipynb`.
--**Resume File:** `MyFakeResume.md`(used for semantic search and analysis).
--**Environment Config:** `.env`(stores API keys and model configuration).
+- **Notebook:** `job_application_crew.ipynb`.
+- **Resume File:** `MyFakeResume.md`(used for semantic search and analysis).
+- **Environment Config:** `.env`(stores API keys and model configuration).
 
 ### Tools Used
 
