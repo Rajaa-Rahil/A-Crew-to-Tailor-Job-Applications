@@ -10,12 +10,21 @@ This project implements a multi agent system for automating the process of analy
 - **Environment Config:** `.env`(stores API keys and model configuration).
 
 ### Tools Used
+- `SerperDevTool` - (Web searching).
+- `ScrapeWebsiteTool` - (Web scraping).
+- `FileReadTool` - (Document reading).
+- `MDXSearchTool` - (Semantic search).
 
-- `FileReadTool` -
-- `ScrapeWebsiteTool` -
-- `MDXSearchTool` -
-- `SerperDevTool` -
 ### Agent Architecture
+**1. Tech Job Researcher (researcher Agint)** Extract and job requirements from job posting.
+
+**2. Personal Profiler Analyst (profiler Agent)** Analyze resumes, personal projects, and other data sources to highligh strengths and match them to job requirements.
+
+**3. Resume Strategist (resume_strategist Agent)** Strategic resume optimization and tailoring.
+
+**4. Cover Letter Writer (cover_letter_writer Agent)** Create compelling and customized cover letters.
+
+**5. Interview Coach (interview_preparer Agent)** Create interview questions and talking points based on the resume and job description.
 
 ### Installation and Setup
 
@@ -32,5 +41,11 @@ This project implements a multi agent system for automating the process of analy
 
 ### Output Files
 
+The project generates three files:
+- `tailored_resume.md`
+- `cover_letter.md`
+- `interview_materials.md`
 
- 
+###Contribution:
+Feel free to fork, extend, or add new agents to expand the pipeline.
+
